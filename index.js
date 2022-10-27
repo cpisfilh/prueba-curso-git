@@ -11,6 +11,9 @@ app.get('/hola',(req, res)=>{
 app.get('/adios',(req, res)=>{
     res.send('ruta Adios');
 })
+app.post('/login',(req, res)=>{
+    res.send('ruta de login nueva');
+})
 app.listen(3000,()=>{
     console.log('Example app listening on port 3000')
 })
